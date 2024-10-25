@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Banking System</title>
+    <link rel="stylesheet" href="./output.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.4.0/fonts/remixicon.css" rel="stylesheet" />
+    <script src="./src/script.js" defer></script>
+
+</head>
+
+<body class="bg-slate-800 text-white min-h-screen flex flex-col justify-between">
+    <nav class="bg-gray-800 text-white py-4 px-6 flex justify-between items-center">
+        <h1 class="text-3xl font-bold">Bankify</h1>
+        <div id="registerOrLogin">
+            <a href="./src/login/login.html" class="text-lg hover:text-blue-500 mx-4 font-semibold">Login</a>
+            <a href="/src/signup/signup.html" class="text-lg hover:text-blue-500 mx-4 font-semibold">Create Account</a>
+        </div>
+        <div id="navAccount" style="display:none" class="flex px-4">
+            <a href="./src/account/account.html" class="text-lg hover:text-blue-500 mx-4 font-semibold">Account</a>
+            <button id="logout" class="text-lg hover:text-blue-500 mx-4 font-semibold">Logout</button>
+        </div>
+    </nav>
+
+    <!-- Main Section -->
+    <main class="flex-grow">
+        <section class="text-center py-16">
+            <h2 class="text-4xl font-bold mb-4 text-blue-500">Welcome to Bankify</h2>
+            <p class="text-lg mb-8">The safest way to manage your money online. Login or create an account to get
+                started.</p>
+            <a href="/src/signup/signup.html"
+                class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-6 rounded">Get
+                Started</a>
+        </section>
+
+        <!-- Features -->
+        <section class="grid grid-cols-1 sm:grid-cols-3 gap-8 px-6 py-12">
+            <div class="bg-gray-900 p-6 rounded-lg shadow-lg text-center">
+                <h3 class="text-xl font-bold mb-4 text-blue-500">Deposit Money</h3>
+                <p>Securely add funds to your account with ease.</p>
+            </div>
+            <div class="bg-gray-900 p-6 rounded-lg shadow-lg text-center">
+                <h3 class="text-xl font-bold mb-4 text-blue-500">Withdraw Money</h3>
+                <p>Withdraw your funds anytime with no hassle.</p>
+            </div>
+            <div class="bg-gray-900 p-6 rounded-lg shadow-lg text-center">
+                <h3 class="text-xl font-bold mb-4 text-blue-500">Transfer Funds</h3>
+                <p>Send money instantly to anyone, anywhere.</p>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-4 text-center">
+        <p class="flex justify-center items-center gap-2">
+            &copy;❤️ 2024 Ravish
+            <a href="https://instagram.com/web________developer" target="_blank"><i
+                    class="ri-instagram-line text-2xl text-pink-500 hover:text-pink-600"></i>
+                </a❤️>
+                <a href="https://github.com/cykoravish" target="_blank"><i
+                        class="ri-github-line text-2xl text-gray-500 hover:text-black"></i>
+                    </a❤️>
+        </p>
+    </footer>
+
+</body>
+
+</html>
